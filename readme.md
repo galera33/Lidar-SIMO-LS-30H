@@ -1,30 +1,30 @@
 # Tutorial de Configuração e Uso do LiDAR SimuLS30H
 
-Este repositório contém um **tutorial completo** para configurar, conectar e testar o LiDAR **SimuLS30H**, utilizando o software oficial **SimuViewer**, seguindo as recomendações do manual do fabricante.
+Este repositório contém um **tutorial completo** para configurar, conectar e testar o LiDAR **SimuLS30H**, utilizando o software oficial **PavoView**, seguindo as recomendações do manual do fabricante.
 
 ---
 
-## 1. Download do Software SimuViewer
+## 1. Download do Software PavoView
 
-O SimuLS30H utiliza o software **SimuViewer** para visualização e configuração do LiDAR.
+O SimuLS30H utiliza o software **PavoView** para visualização e configuração do LiDAR.
 
 Faça o download do pacote oficial (arquivo `.zip`) no site do fabricante:
 
-🔗 **Download do SimuViewer**  
-https://www.simulidar.com/download
+🔗 **Download do PavoView**  
+[https://www.simulidar.com/download](https://www.siminics.shop/download.html)
 
-> Procure pelo SimuViewer compatível com o modelo **SimuLS30H**.
+> Procure pelo PavoView compatível com o modelo **SimuLS30H**.
 
 Após o download:
 1. Extraia o arquivo `.zip`
-2. Execute o instalador do SimuViewer
+2. Execute o instalador do PavoView
 3. Conclua a instalação normalmente
 
 ---
 
 ## 2. Configuração da Rede IPv4 no Computador
 
-Para que o computador consiga se comunicar com o LiDAR, é necessário configurar manualmente o IPv4 da interface de rede Ethernet, conforme definido no manual do SimuViewer.
+Para que o computador consiga se comunicar com o LiDAR, é necessário configurar manualmente o IPv4 da interface de rede Ethernet, conforme definido no manual do PavoView.
 
 ### 2.1 Acessar configurações de rede (Windows)
 
