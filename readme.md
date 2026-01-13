@@ -43,7 +43,7 @@ Para que o computador consiga se comunicar com o LiDAR, é necessário configura
 
 Configure o IPv4 do computador da seguinte forma:
 
-- Endereço IP: `192.168.1.100`
+- Endereço IP: `10.10.10.100'
 - Máscara de sub-rede: `255.255.255.0`
 - Gateway padrão: (deixe em branco)
 
@@ -55,11 +55,11 @@ Salve as configurações e feche todas as janelas.
 
 De acordo com o manual do SimuViewer, o **SimuLS30H vem de fábrica com o seguinte IP**:
 
-- IP do LiDAR: `192.168.1.201`
+- IP do LiDAR: `10.10.10.101`
 - Máscara de sub-rede: `255.255.255.0`
 
 > ⚠️ Importante:  
-> O computador e o LiDAR **devem estar no mesmo segmento de rede** (`192.168.1.x`).
+> O computador e o LiDAR **devem estar no mesmo segmento de rede**.
 
 ---
 
