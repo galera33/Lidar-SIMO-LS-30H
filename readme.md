@@ -76,9 +76,36 @@ Antes de abrir o SimuViewer, é essencial confirmar que a comunicação de rede 
 ping 10.10.10.101
 ```
 ---
+
 ## 5. Teste de Conexão
 
 Dentro do PavoViewer faça ma busca por rede para verificar se localiza o lidar e a partir deste momento ja estará sendo coletado dados do lidar e exibindo na tela
+
 <img width="1070" height="811" alt="Captura de tela 2026-01-13 165027" src="https://github.com/user-attachments/assets/a9ad58c3-07f3-4c71-afa1-e010b3e6676b" />
+
 Caso a busca venha a apresentar o seguinte erro uma possivel solução é conceder permições adicionais ao aplicativo á rede que será aplicado no passo 6
-u<img width="450" height="203" alt="Captura de tela 2026-01-13 165654" src="https://github.com/user-attachments/assets/17ae7063-396d-40c6-a7e4-fe26e278a03b" />
+
+<img width="450" height="203" alt="Captura de tela 2026-01-13 165654" src="https://github.com/user-attachments/assets/17ae7063-396d-40c6-a7e4-fe26e278a03b" />
+
+---
+
+## 6.configurações avançadas de rede
+
+Como o PavoView se comunica via rede, é necessário permitir seu acesso no firewall.
+
+Na primeira execução, o Windows solicitará permissão para acesso à rede. Selecione Permitir acesso.
+
+6.1.onfiguração Manual
+
+Painel de Controle → Sistema e Segurança → Firewall do Windows
+
+Permitir um aplicativo pelo firewall
+
+Clique em Alterar configurações
+
+Marque o PavoView para redes privadas e públicas
+
+Confirme
+
+<img width="1127" height="636" alt="Captura de tela 2026-01-13 170939" src="https://github.com/user-attachments/assets/34b7d46e-e241-4af1-be60-a2d2204458e0" />
+
