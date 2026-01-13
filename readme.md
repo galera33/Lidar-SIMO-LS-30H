@@ -73,4 +73,12 @@ Antes de abrir o SimuViewer, é essencial confirmar que a comunicação de rede 
 2. Execute o comando:
 
 ```bash
-ping 192.168.1.201
+ping 10.10.10.101
+```
+---
+## 5. Teste de Conexão
+
+Dentro do PavoViewer faça ma busca por rede para verificar se localiza o lidar e a partir deste momento ja estará sendo coletado dados do lidar e exibindo na tela
+<img width="1070" height="811" alt="Captura de tela 2026-01-13 165027" src="https://github.com/user-attachments/assets/a9ad58c3-07f3-4c71-afa1-e010b3e6676b" />
+Caso a busca venha a apresentar o seguinte erro uma possivel solução é conceder permições adicionais ao aplicativo á rede que será aplicado no passo 6
+u<img width="450" height="203" alt="Captura de tela 2026-01-13 165654" src="https://github.com/user-attachments/assets/17ae7063-396d-40c6-a7e4-fe26e278a03b" />
