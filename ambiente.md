@@ -40,7 +40,7 @@ O projeto realiza a leitura das varreduras do LiDAR e detecta objetos dentro de 
   https://www.boost.org/users/history/version_1_66_0.html
 
 comando para gerar o exe do sdk:
-
+```bash
 cl /std:c++14 /EHsc /MD /O2 ^
  /D_WIN32_WINNT=0x0601 ^
  /D BOOST_ALL_NO_LIB ^
