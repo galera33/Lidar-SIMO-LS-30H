@@ -39,4 +39,21 @@ O projeto realiza a leitura das varreduras do LiDAR e detecta objetos dentro de 
 - **Link oficial:**  
   https://www.boost.org/users/history/version_1_66_0.html
 
-Estrutura esperada:
+comando para gerar o exe do sdk:
+
+cl /std:c++14 /EHsc /MD /O2 ^
+ /D_WIN32_WINNT=0x0601 ^
+ /D BOOST_ALL_NO_LIB ^
+ /D BOOST_CONFIG_SUPPRESS_OUTDATED_MESSAGE ^
+ /I include ^
+ /I C:\dev\boost_1_66_0 ^
+ src\main.cpp ^
+ src\pavo_driver.cpp ^
+ src\data_filters.cpp ^
+ src\utils.cpp ^
+ /link ^
+ /LIBPATH:C:\dev\boost_1_66_0\stage\lib ^
+ boost_system-vc-mt-x64-1_66.lib ^
+ boost_thread-vc-mt-x64-1_66.lib ^
+ ws2_32.lib ^
+ /OUT:pavo_sdk.exe
